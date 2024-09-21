@@ -1,0 +1,87 @@
+*, body{ 
+    padding:0;
+    margin: 0;
+    /* background-color: #900; */
+    }
+    
+    /* Header style  */
+    .header{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    }
+    /* BIG TITLE */
+    
+    .big-title{ 
+    color: rgb(180, 231, 27);
+    }
+    .navbar{ 
+    display: flex;
+    align-items: center;
+    width: 100%;
+    }
+    .nav-list{  
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    } 
+    
+      .item{ 
+    color: #FFF;
+    }
+    button{ 
+        color: #FFF;
+        background: none;
+        border: none;
+    }
+    
+    /* LINK STYLES */
+     a{ 
+     text-decoration: none;
+     }
+     
+     /* MAIN STYLE */
+     main{ 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: red;
+     height: 100%;
+     }
+     
+     /* To do list  */
+     
+     .container{ 
+     display: flex;
+     flex-direction:column;
+     gap:10px;
+     align-items: center;
+     }
+     
+     
+     /* List container */
+     .list-container{
+     width: 100%;
+     }
+     .list-todo{ 
+     width: 100%;
+     border: 1px solid #000;
+     }
+     .item{ 
+        color: #FFF;
+        display: flex;
+        justify-content:space-around;
+        list-style: none;
+        border: 1px solid #000;
+        margin:5px;
+        }
+        button{ 
+            color: #FFF;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
